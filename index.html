@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Search Console の所有権確認タグをここに貼る (例: <meta name="google-site-verification" content="..."> ) -->
+<title>制度ずかん Uploader</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b2333; --muted:#5b6475; --accent:#16325c; --line:#e3e7ee; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1b2d; --fg:#eef2f8; --muted:#a9b3c4; --accent:#ffc400; --line:#24324a; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:"Yu Gothic UI","Meiryo",system-ui,sans-serif; line-height:1.75; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 .25rem; color:var(--accent); }
+  h2 { font-size:1.15rem; margin:2rem 0 .5rem; border-bottom:1px solid var(--line); padding-bottom:.25rem; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>制度ずかん Uploader</h1>
+  <p class="muted">A private tool for the YouTube channel "制度ずかん" (Seido Zukan)</p>
+
+  <h2>概要 / About</h2>
+  <p>「制度ずかん Uploader」は、YouTubeチャンネル「制度ずかん」の運営者が、自分で制作した制度解説動画を自分のチャンネルにアップロードし、自分のチャンネルの再生統計を確認するための個人用ツールです。運営者本人のみが利用し、第三者のアカウントにはアクセスしません。</p>
+  <p>"Seido Zukan Uploader" is a personal tool used only by the operator of the YouTube channel "制度ずかん". It uploads videos that the operator produced to the operator's own channel and reads the operator's own channel statistics. It does not access any other user's account.</p>
+
+  <h2>使用する Google API / Google APIs used</h2>
+  <ul>
+    <li>YouTube Data API v3 — 自チャンネルへの動画アップロード、自チャンネルの動画情報・公開統計の取得 / uploading videos to and reading public statistics of the operator's own channel</li>
+    <li>YouTube Analytics API — 自チャンネルの視聴データ(再生回数・平均視聴時間など)の取得 / reading the operator's own channel analytics</li>
+  </ul>
+
+  <h2>リンク / Links</h2>
+  <ul>
+    <li><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></li>
+    <li><a href="https://www.youtube.com/@seido-zukan">YouTubeチャンネル「制度ずかん」</a></li>
+  </ul>
+
+  <h2>お問い合わせ / Contact</h2>
+  <p>ksz.7041.ktb@gmail.com</p>
+</main>
+</body>
+</html>
